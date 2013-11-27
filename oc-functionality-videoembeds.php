@@ -8,24 +8,6 @@ Author: Chris Carr - C2 IT, LLC
 Author URI: http://chriscarr.me
 License: GPLv2 or later
 
-------------------------------------------------------------------------
-
-Copyright 2009-2013 C2 IT, LLC
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-
 */
 
 add_action('media_buttons', 'oc_embedvideo_addbutton', 25);
@@ -70,7 +52,6 @@ function oc_embedvideo_addscripts() {
 		function OCInsertVideo() {
 			var htmlcode;
 			htmlcode = '[embed type="oEmbed"]' + jQuery('#TB_ajaxContent .oc_video_url').val() + '[/embed]';
-			console.log(htmlcode);
 			console.log(jQuery('#TB_ajaxContent .oc_video_url').val());
 			window.send_to_editor(htmlcode);
 			return false;
