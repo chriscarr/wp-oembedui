@@ -3,7 +3,7 @@
 Plugin Name: oEmbed UI
 Plugin URI: http://chriscarr.me
 Description: A simple UI for native WordPress oEmbed functionality.
-Version: 0.1
+Version: 1.0.1
 Author: Chris Carr - C2 IT, LLC
 Author URI: http://chriscarr.me
 License: GPLv2 or later
